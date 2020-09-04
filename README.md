@@ -1,2 +1,2 @@
 # okeygame
-En iyi eli bulurken standart sapması en az olan eli tercih ediyor (taşların birbirine yakın olması elin bitmesini kolaylaştırır)
+En iyi eli bulurken standart sapması en az olan eli tercih ediyor (taşların birbirine yakın olması elin bitmesini kolaylaştırır, renklere göre gruplandırma yapıp standart sapmalarını alıyor, okey taşına veya taşlarına sahip kullanıcılarda standart sapmaya okeytaşı dahil edilmez ve sapmadan belli bir oran olacak şekilde okey taşı sebebi ile düşürülür, sahte okey okey taşının yerine konur, renk perleri standart sapmaya dahil edilmedi)
