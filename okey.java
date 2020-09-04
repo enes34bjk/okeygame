@@ -128,7 +128,7 @@ public class okey {
         ////////////////////////////////
     }
 
-    public double standartSapma(ArrayList<Integer> sayılar) {
+    public double standartSapma(ArrayList<Integer> sayılar) {//calculating the standard deviation while handling the okey taşı and sahte okey
         double toplam = 0.0, standartsapma = 0.0;
         int uzunluk;
         while (sayılar.contains(okeytasi)){
@@ -156,7 +156,7 @@ public class okey {
         return sonuc;
     }
 
-    public double renklereAyir(int[] istaka) {
+    public double renklereAyir(int[] istaka) { //removing the color trios from standard deviation
         ArrayList<Integer> istakka= new ArrayList();
         for (int i:istaka){
             istakka.add(i);
@@ -212,7 +212,7 @@ public class okey {
         return standartSapma(sari) + standartSapma(mavi) + standartSapma(siyah) + standartSapma(kirmizi);
     }
 
-    public int enkucukbul(double[] arr1) {
+    public int enkucukbul(double[] arr1) {//finding the person with smallest standard deviation
         int index = 0;
         double min = arr1[index];
 
